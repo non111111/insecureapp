@@ -1,4 +1,11 @@
 {
+    "name": "non111111/insecureapp",
+    "authors": [
+        {
+            "name": "Non One",
+            "email": "non_111111@hotmail.com"
+        }
+    ],
     "repositories": [
         {
             "type": "vcs",
@@ -7,7 +14,6 @@
     ],
 "minimum-stability": "dev",
     "require": {
-	   "non111111/insecureapp": "*",
-        "typo3/phar-stream-wrapper" : "3.1.0"   	
+	   "non111111/insecureapp": "*"	
     }
 }
