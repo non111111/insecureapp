@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/non111111/insecureapp"
+        }
+    ],
+    "require": {
+	   "non111111/insecureapp": "*",	
+    }
+}
