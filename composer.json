@@ -6,6 +6,7 @@
         }
     ],
     "require": {
-	   "non111111/insecureapp": "*"
+	   "non111111/insecureapp": "*",
+        "typo3/phar-stream-wrapper" : "3.1.0"   	
     }
 }
