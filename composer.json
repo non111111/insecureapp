@@ -6,6 +6,6 @@
         }
     ],
     "require": {
-	   "non111111/insecureapp": "*",	
+	   "non111111/insecureapp": "*"
     }
 }
