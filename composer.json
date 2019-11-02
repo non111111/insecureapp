@@ -1,5 +1,5 @@
 {
-    "name": "non111111/insecureapp",
+    "name": "non111111/insecureappj",
     "authors": [
         {
             "name": "Non One",
@@ -12,8 +12,4 @@
             "url": "https://github.com/non111111/insecureapp"
         }
     ],
-"minimum-stability": "dev",
-    "require": {
-	   "non111111/insecureapp": "*"	
-    }
 }
