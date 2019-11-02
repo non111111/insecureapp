@@ -4,8 +4,8 @@
 
 <form action="checkaccount.php" method="post">
 Log in to view your account details <br>
-Username: <input type="text" name="username" size="100"><br>
-Password: <input type="text" name="password" size="200"><br>
+Username: <input type="text" name="username" size="50"><br>
+Password: <input type="text" name="password" size="50"><br>
 <input type="submit">
 </form>
 
