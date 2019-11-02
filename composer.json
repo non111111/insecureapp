@@ -1,5 +1,5 @@
 {
-    "name": "non111111/insecureappj",
+    "name": "non111111/insecureapp",
     "authors": [
         {
             "name": "Non One",
@@ -11,5 +11,5 @@
             "type": "vcs",
             "url": "https://github.com/non111111/insecureapp"
         }
-    ],
+    ]
 }
