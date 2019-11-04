@@ -3,15 +3,15 @@
 
 <?php
 
-$username = $_POST["userid"] ?? '';
+$userid = $_POST["userid"] ?? '';
 $password = $_POST["password"] ?? '';
 
 $dbserver = "localhost";
-$dbusername = "insecureapp";
+$dbuserid = "insecureapp";
 $dbpassword = "45EUlZOpL7";
 $db = "insecureapp";
 
-$conn = new mysqli($dbserver, $dbusername, $dbpassword, $db);
+$conn = new mysqli($dbserver, $dbuserid, $dbpassword, $db);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
