@@ -8,7 +8,7 @@ $password = $_POST["password"] ?? '';
 
 $dbserver = "localhost";
 $dbusername = "insecureapp";
-$dbpassword = "45EUlZOpL7a";
+$dbpassword = "45EUlZOpL7";
 $db = "insecureapp";
 
 $conn = new mysqli($dbserver, $dbusername, $dbpassword, $db);
