@@ -3,7 +3,7 @@
 
 <?php
 
-$username = $_POST["username"] ?? '';
+$username = $_POST["userid"] ?? '';
 $password = $_POST["password"] ?? '';
 
 $dbserver = "localhost";
