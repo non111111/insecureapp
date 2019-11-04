@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 
 
 // print account details
-$sql = "SELECT * FROM users WHERE username = '" . $userid . "' AND password = '" . $password . "'";
+$sql = "SELECT * FROM users WHERE userid = '" . $userid . "' AND password = '" . $password . "'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

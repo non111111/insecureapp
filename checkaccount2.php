@@ -23,7 +23,7 @@ if ($conn->connect_error) {
 $sql = "SELECT * FROM users WHERE userid=? AND password=?";
 
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("ss", $username, $password);
+$stmt->bind_param("ss", $userid, $password);
 $stmt->execute();
 
 $result = $stmt->get_result();
