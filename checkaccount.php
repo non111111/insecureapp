@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 
 
 // print account details
-$sql = "SELECT * FROM users_data WHERE username = '" . $username . "' AND password = '" . $password . "'";
+$sql = "SELECT * FROM users WHERE username = '" . $userid . "' AND password = '" . $password . "'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -40,7 +40,7 @@ echo "<p><b>Login failed</b></p>";
 $conn->close();
 
 
-//echo "<p><BR><font color=\"red\">" . $sql . "</font></p>";
+echo "<p><BR><font color=\"red\">" . $sql . "</font></p>";
 
 
 //https://www.w3schools.com/php/php_mysql_select.asp

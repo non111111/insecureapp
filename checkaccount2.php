@@ -20,7 +20,7 @@ if ($conn->connect_error) {
 
 // print account details
 
-$sql = "SELECT * FROM users_data WHERE username=? AND password=?";
+$sql = "SELECT * FROM users WHERE userid=? AND password=?";
 
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("ss", $username, $password);
